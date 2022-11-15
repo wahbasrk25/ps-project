@@ -1,0 +1,303 @@
+*{font-family: Arial, Helvetica, sans-serif;}
+
+body{margin: 0;padding: 0;}
+
+.start-logo{width: 100%;height: 40px;background-color:black;text-align: right;}
+
+.start-logo_image a{color: aliceblue;font-size: 25px;font-weight: 600;}
+
+.start-logo_image a:hover{color: rgb(223, 230, 236);text-decoration: none;}
+
+.games{width: 1150px;border: none;}
+
+
+
+.hardwear{width: 1050px;}
+
+
+.btn__signin{ height: 30px;font-size: 14px;border-radius: 20px;width: 80px; background-color:rgb(66, 66, 201);color: aliceblue;font-weight: 800;}
+.btn__signin:hover{ background-color:rgb(37, 37, 255);}
+
+.games img{width:10%;height: 100px;margin-left: 100px;margin-top: 5px;}
+
+.games img:hover{border: none;box-shadow: 1px 0px 1px .5px rgb(184, 182, 182);}
+
+.hardwear img{width:10%;height: 100px;margin-left: 100px;margin-top: 5px;}
+
+.hardwear img:hover{border: none;box-shadow: 1px 0px 1px .5px rgb(184, 182, 182);}
+
+.services-icon{width: 950px;background-color: #eee;}
+
+.services-icon img{width:10%;height: 100px;margin-left: 250px;margin-top: 5px;}
+
+.services-icon img:hover{border: none;box-shadow: 1px 0px 1px .5px rgb(184, 182, 182);}
+
+.news-icon{width:850px ;}
+
+.news-icon img{width:10%;height: 100px;margin-left: 250px;margin-top: 5px;}
+
+.news-icon img:hover{border: none;box-shadow: 1px 0px 1px .5px rgb(184, 182, 182);}
+
+.shop-icon{width:750px;}
+
+.shop-icon img{width:10%;height: 100px;margin-left: 120px;margin-top: 5px;}
+
+.shop-icon img:hover{border: none;box-shadow: 1px 0px 1px .5px rgb(184, 182, 182);}
+
+.support-icon{width: 700px;}
+
+.support-icon img{width:20%;height: 100px;margin-left:150px;margin-top: 5px;}
+
+.support-icon img:hover{border: none;box-shadow: 1px 0px 1px .5px rgb(184, 182, 182);}
+
+
+.carousel-inner img{width: 100%;height: 450px;transition: all 1s;}
+
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 450px;
+    background-color: rgba(0, 0, 0, .3);
+    z-index: 1;
+}
+
+.item-image{width: 100%;text-align: center;}
+
+.item-image img{width:15%;height: 100px;
+    margin:50px 10px;border-radius: 15px;
+    justify-content: space-between;opacity: .7;padding: 4px;}
+
+.item-image img:hover{margin-top: 25px;opacity: 1;border: 3px solid rgb(0, 132, 255);}
+
+.playstation-console{background-image: url(../images/console.png);
+    height: 450px;background-size:100% 450px;}
+
+.console-contanent{width:35%;padding-top: 20px;} 
+
+.console-contanent h2{width:75%;}
+
+.console-contanent p{width: 85%; font-size: 20px;color: rgb(109, 106, 106);}
+
+.bet-bet{width: 250px;height: 100px;display: inline;float: left;}
+
+.btn-learn-more{width: 50%;height:36px;position: relative;
+    text-align: center;margin-bottom: 5px;display: inline;float: left;}
+
+.btn-learn-more:hover{border: 2px solid rgb(22, 154, 241);border-radius: 17px;}
+
+.btn-learn-more button{width: 99%;height: 100%;
+    border-radius: 15px;background-color: rgb(22, 154, 241);}
+
+
+.btn-learn-buy{width: 40%;height:36px;position: relative;margin-left: 10px;
+    text-align: center;margin-bottom: 5px;display: inline;float: left;overflow: hidden;}
+
+.btn-learn-buy:hover{border: 2px solid rgb(255, 102, 0);border-radius: 17px;}
+
+.btn-learn-buy button{width: 99%;height: 100%;
+    border-radius: 15px;background-color: rgb(255, 102, 0);}
+
+.ps5-console img{width: 10%;height: 200px;margin: 40px 20px;opacity: .8;} 
+
+.ps5-console img:hover{opacity: 1;border: 4px solid blue;border-radius: 25px;padding: 5px;}
+
+.section_carchters{width: 100%;height:450px;background-image:url(../images/ps-charecters-background.jpg);background-size: cover;}
+
+.playstion-plus{width: 45%;display: inline;padding: 150px;float:left;}
+
+
+
+.charcter-image{width: 40%;height: 400px;margin-left: 600px;position: absolute;margin-top: 30px;}
+
+
+
+.btn-explore-playstation{width:202px;height:36px;text-align: center;
+overflow: hidden;position: relative;display: inline;float:left ;}
+
+.btn-explore-playstation button{width: 100%; height: 100%;border-radius: 17px;font-size: 12px;font-weight: 600;
+background-color: rgb(5, 84, 201);color: #eee;}
+
+.btn-explore-playstation:hover{border: 2px solid rgb(14, 118, 238);border-radius: 17px;}
+
+
+
+.images{width: 100%;height: 400px;}
+
+.big-image{width: 53%;height: 395px;display: inline;float: left;background-image: url(../images/ps-charecters5.jpg);
+background-size: 100% 400px;}
+
+
+.small-image-top{width: 44.5%;height:195px;margin-left: 294px;
+background-image: url(../images/ps-charecters4.jpg);background-size: 100% 195px;}
+
+
+.small-image-bottom{width: 44.5%;height:195px;margin-left: 294px;margin-top:4px;
+    background-image: url(../images/ps-charecters2.jpg);background-size: 100% 195px;}
+
+
+.month{width: 100%;height: 870px;background-image: url(../images/month.jpg);background-size:100% 870px;}
+
+.month-content-top{width: 100%;height: 60%;}
+
+
+.month-content-bottom{width: 100%;height: 40%;background-image: linear-gradient( transparent,rgb(212, 0, 255));}
+
+
+.month-text{width: 60%;height: 100%;padding: 100px;
+    margin-left: 30px;color: aliceblue;padding-top: 200px;}
+
+
+
+.month-text h3{font-weight: 700;font-size: 35px;}
+
+.month-text p{width: 70%;font-size: 20px;}
+
+.month-btn{width: 150px;height: 40px;}
+
+.month-btn:hover{border: 2px solid #fff;border-radius: 15px;}
+
+.month-btn button{width: 100%;height: 100%;border-radius: 15px;}
+
+.month-btn button:hover{border: 1px solid blue;}
+
+.battel{width: 80%;height: 100%;margin: auto;}
+
+.image-content{width: 25%;float: left;display: inline;margin-left: 70px;height: 450px;}
+
+.image-content img{width: 100%;height: 160px;border-radius: 15px;margin-top: 18px;}
+
+.image-content h3{text-align: center;margin: 5px;color: aliceblue;}
+
+
+.last{width: 100%;height: 700px;background-image: url(../images/last.jpg);
+background-size: 100% 700px;position: relative;}
+
+.overlay-last{
+    position: absolute;
+    width: 100%;
+    height: 70%;
+    background-image: linear-gradient(rgba(0,0,0,.7),transparent);
+}
+
+.last-text{width: 40%;height: 700px;padding-top: 400px ;margin-left: 150px;
+color: #fff;}
+
+.last-text h1{width: 60%;font-weight: 800;}
+
+.last-text p{width: 60%;font-weight: 600;}
+
+.last-btn{width: 90px;height: 40px ;background-color: transparent;}
+
+.last-btn button{width: 99%;height: 99%;border-radius: 13px;
+ background-color: rgb(233, 67, 17);color: #fff;border: none;}
+
+ .last-btn button:hover{border: 1px solid black;}
+
+.last-btn:hover{border-radius: 13px;border: 2px solid rgb(233, 67, 17) ;}
+
+.PlayStation-official{width: 100%;height: 900px;background-image: url(../images/official.png);background-size:100% 900px;}
+
+.PlayStation-official-top{width: 35%;height: 250px;margin-left: 200px;}
+
+.PlayStation-official-top img{width: 80px;height: 80px;margin-top: 10px;border-radius:30%;}
+
+.PlayStation-official-top h2{font-weight: 600;color: rgb(15, 15, 15);padding: 30px 0px; }
+
+.PlayStation-official-top p{color: rgb(15, 14, 14);font-weight: 500;}
+
+.PlayStation-official-bottom{width: 80%;;margin: auto;}
+
+.PlayStation-official-bottom-image{width: 22%;height: 350px;display: inline;float: left;margin-top: 170px;
+    margin-left: 30px;padding-top: 100px;}
+
+.topimage-left{width: 100%;height: 50%;background-image: url(../images/official2.jpg);background-size: 100% 100%;}  
+
+.PlayStation-official-bottom-image p{text-align: center;margin: 10px 0px; color: #fff;width: 80%;}
+
+.btn-shoping{width: 90px;height: 40px ;background-color: transparent;margin-left: 21%;}
+
+.btn-shoping button{width: 99%;height: 99%;border-radius: 13px;
+    background-color: rgb(233, 67, 17);color: #fff;border: none;}
+
+.btn-shoping button:hover{border: 1px solid black;}
+
+.btn-shoping:hover{border-radius: 13px;border: 2px solid rgb(233, 67, 17) ;} 
+
+.topimage-scoend{width: 100%;height: 50%;background-image: url(../images/official3.jpg);background-size: 100% 100%;}
+
+.topimage-third{width: 100%;height: 50%;background-image: url(../images/official4.jpg);background-size: 100% 100%;}
+
+.topimage-right{width: 100%;height: 50%;background-image: url(../images/official5.jpg);background-size: 100% 100%;}
+
+.PlayStation-official-bottom-btn{width: 100%;height: 100px;position: absolute;margin-top: 580px;}
+
+.official-bottom-btn{width: 200px;height: 35px;margin: auto;
+    background-color: transparent;text-align: center;border: 3px solid transparent;}
+
+.official-bottom-btn button{width: 99.5%;height:99.5%; border-radius: 15px;font-size: 14px;font-weight: 700;} 
+
+.official-bottom-btn:hover{border: 3px solid rgb(238, 230, 230); border-radius: 15px;}
+
+.official-bottom-btn button:hover{border: 2px solid black;background-color: white;}
+
+.conection{width: 100%;height: 500px;background-color: rgb(10, 58, 216);}
+
+.conection-content{width:50%;height: 100%;display: inline;float: left;}
+
+.conection-content-text{width: 100%; height: 50%;color: #fff;padding: 120px 30px 20px 120px;}
+
+.conection-content-text h1{font-size: 80px;font-weight: 700;}
+
+.conction-sony-icon{width: 100%;height: 50%;color:#fff;padding: 60px 60px 60px 120px;}
+
+.conction-sony-icon img{width: 150px;height: 100px;}
+
+.conction-list{width: 30%;height: 70%;display: inline;float:left;position: absolute;color: rgb(255, 255, 255);
+    margin-left: 100px;}
+
+.conction-list li{list-style: none;padding: 8px 0px;font-size: 13px;cursor: pointer;}
+
+.conction-list-support{width: 30%;height:70%;float: left;display: inline;padding-top: 100px;}
+
+.conction-list-psn{width: 30%;height:70%;float: left;display: inline;margin: 0px 20px;padding-top: 100px;}
+
+.conction-list-facebook{width: 30%;height: 70%;float: left;display: inline;padding-top: 100px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
